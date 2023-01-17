@@ -5,5 +5,17 @@
         None
     Returns:
         list: return answer
+        func nomli funksiya yarating
+     Natijaga bo'sh ro'yxatni qaytaring.
+     Args:
+         Yo'q
+     Qaytaradi:
+         ro'yxat: javobni qaytarish
 */
-void main() {}
+ List func(){
+  List x=[ ];
+  return x; 
+}
+void main() {
+  print (func());
+}
