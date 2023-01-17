@@ -7,7 +7,7 @@
         bool: return answer
 */bool func(List list1){
   int a=0,s=0;
-  while(list1[a]<list1.length-1){
+  while(a<list1.length-1){
     if(list1[a]==list1[a+1]){
       s++; a++; 
     if(s==list1.length-1){
