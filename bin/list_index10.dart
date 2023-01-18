@@ -5,16 +5,16 @@
         list_num (list): parameter
     Returns:
         list: return answer
-*/
-import "dart:math";
+*/import 'dart:math';
 List func(List list_num){
   int a = 0;
-  int s = 0;
+  int s = 0,n=0;
   while(a<list_num.length-1){
-   s = max(list_num[a],list_num[a+1]);
+    n++;
+   s = max(list_num[0],list_num[n]);
    a++; 
-  } return [s] ;
+  } return [s] ;//5 8 9 99
 }
 void main() {
-  print (func([3, 6, 8,12]));
+  print (func([99, 556,56,54,333]));
 }
